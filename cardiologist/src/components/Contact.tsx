@@ -130,7 +130,7 @@ const Contact = () => {
                 className="space-y-6"
               >
                 <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_next" value="https://akshitdhake.info/thankyou" />
+                <input type="hidden" name="_next" value="https://https://dr-manish-portfolio.vercel.app/thankyou" />
                 <input type="hidden" name="_subject" value="New Message from Ganwani Heart Care Website" />
                 {/* <input
     type="hidden"
