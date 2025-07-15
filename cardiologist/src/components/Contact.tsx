@@ -125,18 +125,18 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-primary mb-6">Send Message</h3>
 
               <form
-                action="https://formsubmit.co/nikitaingle1311@gmail.com"
+                action="https://formsubmit.co/ganwaniheartclinic@gmail.com"
                 method="POST"
                 className="space-y-6"
               >
                 <input type="hidden" name="_captcha" value="false" />
-                {/* <input type="hidden" name="_next" value="https://akshitdhake.info/thankyou" /> */}
+                <input type="hidden" name="_next" value="https://akshitdhake.info/thankyou" />
                 <input type="hidden" name="_subject" value="New Message from Ganwani Heart Care Website" />
-                <input
+                {/* <input
     type="hidden"
     name="_next"
     value="https://dr-manish-portfolio.vercel.app//thankyou"
-/>
+/> */}
 
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
