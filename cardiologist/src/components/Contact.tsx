@@ -125,7 +125,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-primary mb-6">Send Message</h3>
 
               <form
-                action="https://formsubmit.co/ganwaniheartclinic@gmail.com"
+                action="https://formsubmit.co/nikitaingle1311@gmail.com"
                 method="POST"
                 className="space-y-6"
               >
