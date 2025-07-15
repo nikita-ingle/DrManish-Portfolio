@@ -9,6 +9,7 @@ import AboutDoctor from "./pages/AboutDoctor";
 import AngioplastyNagpur from "./pages/AngioplastyNagpur";
 import ECGNagpur from "./pages/ECGNagpur";
 import TMTNagpur from "./pages/TMTNagpur";
+import ThankYou from "./pages/Thankyou";
 import EchoNagpur from "./pages/EchoNagpur";
 import PacemakerNagpur from "./pages/PacemakerNagpur";
 import BloodPressureNagpur from "./pages/BloodPressureNagpur";
@@ -100,7 +101,8 @@ const App = () => (
             <Route path="/locations/betul" element={<BetulLocation />} />
             <Route path="/locations/balaghat" element={<BalaghatLocation />} />
             <Route path="/locations/jabalpur" element={<JabalpurLocation />} />
-            
+            <Route path="/thankyou" element={<ThankYou />} />
+
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
