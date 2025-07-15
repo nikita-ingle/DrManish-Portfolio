@@ -132,7 +132,11 @@ const Contact = () => {
                 <input type="hidden" name="_captcha" value="false" />
                 {/* <input type="hidden" name="_next" value="https://akshitdhake.info/thankyou" /> */}
                 <input type="hidden" name="_subject" value="New Message from Ganwani Heart Care Website" />
-
+                <input
+    type="hidden"
+    name="_next"
+    value="https://dr-manish-portfolio.vercel.app//thankyou"
+/>
 
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
